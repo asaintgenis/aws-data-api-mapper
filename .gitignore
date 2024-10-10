@@ -1,0 +1,62 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Logs
+*.log
+
+# Compiled object files and dynamic libraries
+*.o
+*.a
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies
+vendor/
+
+# Go workspace file
+go.work
+
+# Go test binaries
+*.test
+
+# Generated files
+*.exe
+
+# Go coverage files
+*.coverprofile
+*.cover.out
+
+# Build directory for GoReleaser
+dist/
+
+# IDE and editor temporary files and directories
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.temp
+*.bak
+*.backup
+*.sass-cache
+*_flymake.*
+*_flymake
+*~
+.nfs*
+
+# Node modules
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+._*
+
+# JetBrains specific files
+/out/
